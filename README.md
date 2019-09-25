@@ -1,4 +1,4 @@
-# mychatbot
+# Mychatbot
 a music chatbot on Telegram supported by Rasa NLU
 
 ## Telegram
@@ -25,5 +25,5 @@ a music chatbot on Telegram supported by Rasa NLU
 - view the final result by "Music chatbot_by Xuanhe Chen.mp4"
 - all of the API keys and databases have benn removed for security
 
-## doc
-Chinese version doc is avaliable 
+## Doc
+Chinese version doc is avaliable [`Doc.pdf`](https://github.com/E1PsyCongroo/mychatbot/blob/master/Doc.pdf)
