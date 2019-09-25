@@ -1,0 +1,730 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "distinguish_songs",
+        "text": "do you know this song"
+      },
+      {
+        "intent": "distinguish_songs",
+        "text": "what's the name of this song"
+      },
+      {
+        "intent": "distinguish_songs",
+        "text": "KangKang, have you heard of this"
+      },
+      {
+        "intent": "distinguish_songs",
+        "text": "can you tell this music"
+      },
+      {
+        "intent": "distinguish_songs",
+        "text": "Kangkang, do you know this song's title"
+      },
+      {
+        "intent": "distinguish_songs",
+        "text": "i heard this song"
+      },
+      {
+        "intent": "distinguish_songs",
+        "text": "tell me more about this music"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "recommend something"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "i have no idea"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "not decided"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "play sth, whatever"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "whatever"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "everyting is ok"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "well, you tell me"
+      },
+      {
+        "intent": "recommend_songs",
+        "text": "recommend sth"
+      },
+      {
+        "intent": "deny",
+        "text": "not this one"
+      },
+      {
+        "intent": "deny",
+        "text": "maybe another one"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "No, thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "another one?"
+      },
+      {
+        "intent": "deny",
+        "text": "sorry, i don't like it"
+      },
+      {
+        "intent": "deny",
+        "text": "i would appreciate it if you offer other choices"
+      },
+      {
+        "intent": "search_songs",
+        "text": "Kangkang, play some music"
+      },
+      {
+        "intent": "search_songs",
+        "text": "i want to hear some songs"
+      },
+      {
+        "intent": "search_songs",
+        "text": "sing a song, please"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "Taylor Swift",
+            "entity": "artist"
+          }
+        ],
+        "text": "i'd like songs of Taylor Swift"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Taylor Swift",
+            "entity": "artist"
+          }
+        ],
+        "text": "well, no more Taylor Swift"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Avril Lavigne",
+            "entity": "artist"
+          }
+        ],
+        "text": "Avril will be great"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "Queen",
+            "entity": "artist"
+          }
+        ],
+        "text": "a song of Queen"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Qing Feng Wu",
+            "entity": "artist"
+          }
+        ],
+        "text": "Qing Feng Wu's music"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Ed Sheeran",
+            "entity": "artist"
+          }
+        ],
+        "text": "Ed Sheeran will be great"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Adele",
+            "entity": "artist"
+          }
+        ],
+        "text": "i don't want Adele"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Jessie J",
+            "entity": "artist"
+          }
+        ],
+        "text": "i'm looking for music of Jessie J"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Jay Chou",
+            "entity": "artist"
+          }
+        ],
+        "text": "i want to hear music created by Jay Chou"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "sad",
+            "entity": "emotion"
+          }
+        ],
+        "text": "i'm kind of sad, play a music of that kind"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "exciting",
+            "entity": "emotion"
+          }
+        ],
+        "text": "an exciting music would be good"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Queen",
+            "entity": "artist"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "folk",
+            "entity": "kind"
+          }
+        ],
+        "text": "no Queen, folk songs please"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "sad",
+            "entity": "emotion"
+          }
+        ],
+        "text": "i have a bad mood now"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "peachful",
+            "entity": "emotion"
+          }
+        ],
+        "text": "a peachful song"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "happy",
+            "entity": "emotion"
+          }
+        ],
+        "text": "i'm feeling happy"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Adele",
+            "entity": "artist"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Avril Lavigne",
+            "entity": "artist"
+          }
+        ],
+        "text": "no more Adele, l like Avril"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "pop",
+            "entity": "kind"
+          }
+        ],
+        "text": "no more pop songs"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "happy",
+            "entity": "emotion"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "classic",
+            "entity": "kind"
+          }
+        ],
+        "text": "please play a happy classic music"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "folk",
+            "entity": "kind"
+          }
+        ],
+        "text": "i would appreciate it if it's a folk song"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "rock",
+            "entity": "kind"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "value": "classic",
+            "entity": "kind"
+          }
+        ],
+        "text": "i don't want any rock, but some classic ones"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "classic",
+            "entity": "kind"
+          }
+        ],
+        "text": "how about classic music"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "classic",
+            "entity": "kind"
+          }
+        ],
+        "text": "i'm looking for a calssic music"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "rock",
+            "entity": "kind"
+          }
+        ],
+        "text": "rock song"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "exciting",
+            "entity": "emotion"
+          }
+        ],
+        "text": "i'm excited, play sth"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "popular",
+            "entity": "kind"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "Taylor Swift",
+            "entity": "artist"
+          }
+        ],
+        "text": "i'd like pop ones by TS"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 9,
+            "end": 23,
+            "value": "\"Shape of You\"",
+            "entity": "title"
+          }
+        ],
+        "text": "The song \"Shape of You\""
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "\"Innocence\"",
+            "entity": "title"
+          }
+        ],
+        "text": "\"Innocence\""
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 10,
+            "end": 35,
+            "value": "\"Ballade No.1 In G Minor\"",
+            "entity": "title"
+          }
+        ],
+        "text": "The music \"Ballade No.1 In G Minor\""
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "\"Crazy In Love\"",
+            "entity": "title"
+          },
+          {
+            "start": 33,
+            "end": 40,
+            "value": "Beyonce",
+            "entity": "artist"
+          }
+        ],
+        "text": "I'm searching \"Crazy In Love\" of Beyonce"
+      },
+      {
+        "intent": "search_songs",
+        "entities": [
+          {
+            "start": 15,
+            "end": 41,
+            "value": "\"Look What You Made Me Do\"",
+            "entity": "title"
+          }
+        ],
+        "text": "the song named \"Look What You Made Me Do\""
+      },
+      {
+        "intent": "about_teacher",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Fan Zhang",
+            "entity": "teacher"
+          }
+        ],
+        "text": "do you know Fan Zhang"
+      },
+      {
+        "intent": "about_teacher",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Fan Zhang",
+            "entity": "teacher"
+          }
+        ],
+        "text": "Fan is my teacher"
+      },
+      {
+        "intent": "about_teacher",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Fan Zhang",
+            "entity": "teacher"
+          }
+        ],
+        "text": "Fan Zhang is my teacher"
+      },
+      {
+        "intent": "about_teacher",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Fan Zhang",
+            "entity": "teacher"
+          }
+        ],
+        "text": "my teacher is Mr.Zhang"
+      },
+      {
+        "intent": "bye",
+        "text": "see you next time"
+      },
+      {
+        "intent": "bye",
+        "text": "Bye-bye"
+      },
+      {
+        "intent": "bye",
+        "text": "see you"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "farewell"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "good, i like it"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "brilliant"
+      },
+      {
+        "intent": "affirm",
+        "text": "perfect"
+      },
+      {
+        "intent": "affirm",
+        "text": "thanks"
+      },
+      {
+        "intent": "affirm",
+        "text": "thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "it's very nice of you"
+      },
+      {
+        "intent": "affirm",
+        "text": "it's kind of you"
+      },
+      {
+        "intent": "affirm",
+        "text": "you are so smart"
+      },
+      {
+        "intent": "affirm",
+        "text": "wow, how clever you are"
+      },
+      {
+        "intent": "affirm",
+        "text": "you are so sweet"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [
+      {
+        "name": "emotion",
+        "elements": [
+          "sad",
+          "exciting",
+          "happy",
+          "peaceful"
+        ]
+      },
+      {
+        "name": "kind",
+        "elements": [
+          "folk",
+          "rap",
+          "popular",
+          "rock",
+          "classic"
+        ]
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "Avril Lavigne",
+        "synonyms": [
+          "Avril"
+        ]
+      },
+      {
+        "value": "sad",
+        "synonyms": [
+          "bad",
+          "horrible",
+          "mournful"
+        ]
+      },
+      {
+        "value": "classic",
+        "synonyms": [
+          "calssic"
+        ]
+      },
+      {
+        "value": "exciting",
+        "synonyms": [
+          "excited"
+        ]
+      },
+      {
+        "value": "popular",
+        "synonyms": [
+          "pop"
+        ]
+      },
+      {
+        "value": "Taylor Swift",
+        "synonyms": [
+          "TS",
+          "Swift",
+          "Taylor",
+          "taylor swift"
+        ]
+      },
+      {
+        "value": "Fan Zhang",
+        "synonyms": [
+          "Fan",
+          "Mr.Zhang"
+        ]
+      },
+      {
+        "value": "Jay Chou",
+        "synonyms": [
+          "JC",
+          "Jielun",
+          "Zhou Jielun"
+        ]
+      },
+      {
+        "value": "Qing Feng Wu",
+        "synonyms": [
+          "Qingfeng Wu",
+          "Wu Qingfeng"
+        ]
+      }
+    ]
+  }
+}
